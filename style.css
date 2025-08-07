@@ -19,17 +19,11 @@ body {
   box-shadow: 0 0 20px #00f0ff;
 }
 
-<<<<<<< HEAD
-h1 {
-  text-align: center;
-  color: #171818;
-=======
 
 h1 {
   text-align: center;
   color: #171818;
 
->>>>>>> 26f64b94a5ac23f92bccbd0bbfc2e3f43e4404f1
   margin-bottom: 25px;
 }
 
@@ -52,10 +46,7 @@ select {
   font-size: 16px;
   background-color: #c2c2fd;
   color: #000000;
-<<<<<<< HEAD
-=======
 
->>>>>>> 26f64b94a5ac23f92bccbd0bbfc2e3f43e4404f1
   outline: none;
 }
 
@@ -83,8 +74,8 @@ button:hover {
   margin: 20px auto;
   width: 40px;
   height: 40px;
-  border: 5px solid #444;
-  border-top: 5px solid #00f0ff;
+  border: 5px solid #ff3737;
+  border-top: 5px solid #050c0c;
   border-radius: 50%;
   animation: girar 1s linear infinite;
 }
@@ -116,10 +107,6 @@ th {
   color: #161616;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even){
   background-color: rgba(255, 255, 255, 0.03);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 26f64b94a5ac23f92bccbd0bbfc2e3f43e4404f1
