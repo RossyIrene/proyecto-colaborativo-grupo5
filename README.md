@@ -52,7 +52,7 @@
 
 **✅ Criterio de Aceptación:**
 
-** DNI y RUC: Solo números**
+**DNI y RUC: Solo números**
 
 **Pasaporte: Puede contener letras y números**
 
