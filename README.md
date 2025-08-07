@@ -12,6 +12,7 @@
 |---------------|------------------------|--------------------------------------------------|
 | Scrum Master  | Kevin facundo Yupanqui           | Coordina el trabajo, facilita reuniones   |
 | Product Owner | Daniel Torres Cordova             | Define el objetivo, prioriza tareas      |
+| Product Owner | Rossy Quispe             | Define el objetivo, prioriza tareas      |
 | Developer 1   | Zaid Uriarte Ordoñez      | Crea el diseño en HTML + CSS                     |
 | Developer 2   | Juan Carlos Solis       | Programa validaciones con JS y conecta API simulada |
 | Developer 3   | Eduard De La Cruz        | Encargado del Github                             |
@@ -85,5 +86,16 @@
 ### 7. Grabar un video grupal:
 ** Finalmente, se grabará un video en equipo donde se mostrará el funcionamiento de la app, se explicará el proceso de desarrollo y cada integrante podrá contar cuál fue su aporte en el proyecto.
 
-## 📋 Sprint Backlog (Trello)
+## 📢 ENLACE A PAGINA WEB
+
+[NUESTRO ENLACE WEB](https://rossyirene.github.io/proyecto-colaborativo-grupo5/)
+
+## 🔑 ENLACE A TRELLO
+
+[TABLERO-GRUPO 5](https://trello.com/b/RTosxLZx/proyecto-validacion-de-dni)
+
+
+
+
+
 
