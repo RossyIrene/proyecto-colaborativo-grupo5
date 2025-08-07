@@ -13,15 +13,19 @@ form.addEventListener('submit', function(event) {
     const documentoValue = documento.value;
 
     if (!validarDocumento(tipoValue, documentoValue)) {
-        alert('El número de documento no cumple con la longitud requerida o contiene caracteres inválidos.');
+        alert('El número de documento no cumple con la longitud requerida.');
         return;
     }
 
-    const newData = { tipo: tipoValue, documento: documentoValue };
-    data.push(newData);
-    saveDataToLocalStorage();
-    renderTable();
-    form.reset();
+    if (tipoValue && documentoValue) {
+        const newData = { tipo: tipoValue, documento: documentoValue };
+        data.push(newData);
+        saveDataToLocalStorage();
+        renderTable();
+        form.reset();
+    } else {
+        alert('Todos los datos son requeridos');
+    }
 });
 
 function validarDocumento(tipo, documento) {
@@ -40,27 +44,31 @@ function saveDataToLocalStorage() {
 function renderTable() {
     tableBody.innerHTML = '';
 
-    data.forEach((item, index) => {
+    data.forEach(function(item, index) {
         const row = document.createElement('tr');
-
         const tipoCell = document.createElement('td');
-        tipoCell.textContent = item.tipo;
-
         const documentoCell = document.createElement('td');
-        documentoCell.textContent = item.documento;
-
         const actionCell = document.createElement('td');
-
         const editButton = document.createElement('button');
-        editButton.textContent = 'Editar';
-        editButton.addEventListener('click', () => editData(index));
-
         const deleteButton = document.createElement('button');
+tipoCell.textContent = item.tipo;
+        documentoCell.textContent = item.documento;
+        editButton.textContent = 'Editar';
         deleteButton.textContent = 'Eliminar';
-        deleteButton.addEventListener('click', () => deleteData(index));
+
+        editButton.classList.add('button', 'button--secundary');
+        deleteButton.classList.add('button', 'button--tertiary');
 
         actionCell.appendChild(editButton);
         actionCell.appendChild(deleteButton);
+
+        editButton.addEventListener('click', function () {
+            editData(index);
+        });
+
+        deleteButton.addEventListener('click', function () {
+            deleteData(index);
+        });
 
         row.appendChild(tipoCell);
         row.appendChild(documentoCell);
@@ -74,7 +82,7 @@ function editData(index) {
     const item = data[index];
     tipo.value = item.tipo;
     documento.value = item.documento;
-    data.splice(index, 1); 
+    data.splice(index, 1);
     saveDataToLocalStorage();
     renderTable();
 }
@@ -84,6 +92,5 @@ function deleteData(index) {
     saveDataToLocalStorage();
     renderTable();
 }
-
 
 renderTable();
