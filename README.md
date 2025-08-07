@@ -21,7 +21,7 @@
 
 ### 📌 HU1
 
-** Como usuario, quiero ingresar mi número (DNI, RUC o Pasaporte) en un campo de texto para validar si es correcto.**
+**Como usuario, quiero ingresar mi número (DNI, RUC o Pasaporte) en un campo de texto para validar si es correcto.**
 ---
 
 **🔺 Prioridad: Muy Alta**
