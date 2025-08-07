@@ -20,33 +20,46 @@
 
 ### 📌 HU1
 ** Como usuario, quiero ingresar mi número (DNI, RUC o Pasaporte) en un campo de texto para validar si es correcto.
+
 ** 🔺 Prioridad: Muy Alta
-# ✅ Criterio de Aceptación: Campo visible, permite escribir
+
+** ✅ Criterio de Aceptación: Campo visible, permite escribir
 
 ### 📌 HU2
 ** Como usuario, quiero que me deje escoger entre DNI, RUC o Pasaporte para que el sistema sepa qué tipo de documento estoy ingresando.
+
 ** 🔺 Prioridad: Muy Alta
+
 ** ✅ Criterio de Aceptación: Selector visible con dos opciones
 
 ### 📌 HU3
 ** Como sistema, quiero validar el formato del número ingresado dependiendo del tipo seleccionado:
+
 ** 🔺 Prioridad: Alta
+
 ** ✅ Criterio de Aceptación: RUC = 11 dígitos, DNI = 8 dígitos, Pasaporte: Entre 8 y 12 caracteres alfanuméricos
 
 ### 📌 HU4
 ** Como sistema, solo debo admitir entradas válidas según cada tipo de documento:
+
 ** 🔺 Prioridad: Media
+
 ** ✅ Criterio de Aceptación:
+
 ** DNI y RUC: Solo números
+
 ** Pasaporte: Puede contener letras y números
 
 ### 📌 HU5
 ** Como usuario, quiero que la app me diga si el número ingresado es válido o no, para saber si está correcto.
+
 ** 🔺 Prioridad: Alta
+
 ** ✅ Criterio de Aceptación: Mensaje claro y conciso debajo del campo
 
 ### 📌 HU6
 ** Como usuario, quiero que el diseño sea sencillo y agradable para navegar y digitar fácilmente.
+
 ** ✅ Criterio de Aceptación: Estilo centrado, colores suaves y tipografía legible
 
 ## 📋 Sprint Backlog (Trello)
