@@ -40,7 +40,7 @@
 
 **Como sistema, quiero validar el formato del número ingresado dependiendo del tipo seleccionado:**
 
-**🔺 Prioridad: Alta
+**🔺 Prioridad: Alta**
 
 **✅ Criterio de Aceptación: RUC = 11 dígitos, DNI = 8 dígitos, Pasaporte: Entre 8 y 12 caracteres alfanuméricos**
 
