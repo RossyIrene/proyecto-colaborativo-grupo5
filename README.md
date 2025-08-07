@@ -21,7 +21,7 @@
 ### 📌 HU1
 ** Como usuario, quiero ingresar mi número (DNI, RUC o Pasaporte) en un campo de texto para validar si es correcto.
 ** 🔺 Prioridad: Muy Alta
-** ✅ Criterio de Aceptación: Campo visible, permite escribir
+# ✅ Criterio de Aceptación: Campo visible, permite escribir
 
 ### 📌 HU2
 ** Como usuario, quiero que me deje escoger entre DNI, RUC o Pasaporte para que el sistema sepa qué tipo de documento estoy ingresando.
